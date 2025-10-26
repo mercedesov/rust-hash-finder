@@ -1,0 +1,11 @@
+
+[package]
+name = "rust_hash_finder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+hex = "0.4"
+rayon = "1.7"
+clap = { version = "4.1", features = ["derive"] }
